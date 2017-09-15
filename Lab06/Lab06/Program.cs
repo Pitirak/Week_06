@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        int val = 999;
+        int val;   // do not initial value
         refMethod(out val);
         Console.WriteLine(val);
         Console.ReadLine();
@@ -13,6 +13,6 @@ class Program
 
     static void refMethod(out int i)
     {
-        i = i + 1;
+        i = + 1;
     }
 }
